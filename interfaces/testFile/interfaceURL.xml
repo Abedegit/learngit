@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<interface>
+    <url name="Authorization">
+        <group>users</group>
+        <module>auth</module>
+    </url>
+    <url name="Addrepair">
+        <group>repairs</group>
+    </url>
+    <url name="Addproject">
+        <group>items</group>
+    </url>
+    <url name="Getroom">
+        <group>items</group>
+        <module>itemHasRoomTypes</module>
+    </url>
+    <url name="Getbuildings">
+        <group>groups</group>
+        <module>buildings</module>
+    </url>
+    <url name="Getapprovals">
+        <group>approvals</group>
+    </url>
+    <url name="Postapprovals">
+        <group>approvals</group>
+    </url>
+    <url name="Getdispatching">
+        <group>dispatchingManagements</group>
+    </url>
+    <url name="Postdispatching">
+        <group>dispatchingManagements</group>
+    </url>
+    <url name="PostmaintenanceTasks">
+        <group>maintenanceTasks</group>
+    </url>
+    <url name="Taskscomplete">
+        <group>maintenanceTasks</group>
+        <module>complete</module>
+    </url>
+    <url name="listRepairUsers">
+        <group>dispatchingManagements</group>
+        <module>listRepairUsers</module>
+    </url>
+    <url name="Deleteproject">
+        <group>items</group>
+        <module>remove</module>
+    </url>
+    <url name="Deleteproject">
+        <group>items</group>
+        <module>remove</module>
+    </url>
+    <url name="Outsiders">
+        <group>outsiders</group>
+    </url>
+    <url name="Addousider">
+        <group>outsiders</group>
+    </url>
+    <url name="Deleteoutsider">
+        <group>outsiders</group>
+        <module>remove</module>
+    </url>
+    <url name="Modifyoutsiders">
+        <group>outsiders</group>
+    </url>
+    <url name="OutsiderDetails">
+        <group>outsiders</group>
+    </url>
+    <url name="Approvalstags">
+        <group>approvals</group>
+        <module>listTags</module>
+    </url>
+    <url name="Approvalsdetails">
+        <group>approvals</group>
+    </url>
+    <url name="Approvalhistorys">
+        <group>approvals</group>
+        <module>approvalHistorys</module>
+    </url>
+    <url name="Datas">
+        <group>datas</group>
+        <module>menus</module>
+    </url>
+    <url name="Repairslist">
+        <group>repairs</group>
+    </url>
+    <url name="Repairstag">
+        <group>repairs</group>
+        <module>listTags</module>
+    </url>
+    <url name="Repairsmanagement">
+        <group>repairs</group>
+        <module>order-management</module>
+    </url>
+    <url name="Repairsdetails">
+        <group>repairs</group>
+    </url>
+    <url name="Repairshistory">
+        <group>repairs</group>
+        <module>approvalHistorys</module>
+    </url>
+    <url name="Repaircancel">
+        <group>repairs</group>
+        <module>cancel</module>
+    </url>
+    <url name="Repaircomplete">
+        <group>repairs</group>
+        <module>complete</module>
+    </url>
+    <url name="Repairpreview">
+        <group>repairs</group>
+        <module>preview</module>
+    </url>
+    <url name="Repairreapply">
+        <group>repairs</group>
+        <module>reapply</module>
+    </url>
+    <url name="Repairupdate">
+        <group>repairs</group>
+        <module>update</module>
+    </url>
+    <url name="Repairurge">
+        <group>repairs</group>
+        <module>urge</module>
+    </url>
+    <url name="Itemslist">
+        <group>items</group>
+    </url>
+    <url name="Itemsdetails">
+        <group>items</group>
+    </url>
+    <url name="Itemsupdate">
+        <group>items</group>
+    </url>
+    <url name="DispatchingTags">
+        <group>dispatchingManagements</group>
+        <module>listTags</module>
+    </url>
+    <url name="Dispatchingdetails">
+        <group>dispatchingManagements</group>
+    </url>
+    <url name="Groupslist">
+        <group>groups</group>
+    </url>
+    <url name="Maintenancelist">
+        <group>maintenanceTasks</group>
+    </url>
+    <url name="Maintenancetags">
+        <group>maintenanceTasks</group>
+        <module>listTags</module>
+    </url>
+    <url name="Maintenancedetail">
+        <group>maintenanceTasks</group>
+    </url>
+    <url name="GroupsgetStudent">
+        <group>groups</group>
+        <module>getStudentGroup</module>
+    </url>
+    <url name="AddGroups">
+        <group>groups</group>
+    </url>
+    <url name="Groupsgetdelete">
+        <group>groups</group>
+        <module>remove</module>
+    </url>
+    <url name="Groupsedit">
+        <group>groups</group>
+    </url>
+    <url name="Groupdetail">
+        <group>groups</group>
+    </url>
+    <url name="Upload">
+        <group>attachments</group>
+        <module>upload</module>
+    </url>
+    <url name="Addrepaircancel">
+        <group>repairs</group>
+    </url>
+    <url name="Approvalre">
+        <group>approvals</group>
+    </url>
+    <url name="Taskscompletere">
+        <group>maintenanceTasks</group>
+        <module>complete</module>
+    </url>
+    <url name="PostmaintenanceTasksre">
+        <group>maintenanceTasks</group>
+    </url>
+    <url name="Dispatchingre">
+        <group>dispatchingManagements</group>
+    </url>
+    <url name="Addrp">
+        <group>repairs</group>
+    </url>
+    <url name="Apprp">
+        <group>approvals</group>
+    </url>
+    <url name="Mtaskp">
+        <group>maintenanceTasks</group>
+    </url>
+    <url name="Taskp">
+        <group>maintenanceTasks</group>
+        <module>complete</module>
+    </url>
+</interface>
+
+
+
+
